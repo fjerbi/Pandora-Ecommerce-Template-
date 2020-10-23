@@ -1,0 +1,28 @@
+body {
+    font-size: 10px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .loader {
+    border-radius: 50%;
+    height: 4em;
+    width: 4em;
+  
+    // center
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  
+    box-shadow: -.5em 0;
+    animation: moon 1s alternate infinite linear;
+  }
+  
+  @keyframes moon {
+    to {
+      box-shadow: .5em 0;
+    }
+  }
